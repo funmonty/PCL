@@ -1,14 +1,14 @@
 Source: pcl-1.8.1
 Section: video
 Priority: extra
-Maintainer: Madhu Soodhan <madhusoodhans1412@gmail.com>
+Maintainer: Madhu Soodhan (Madhu) <madhusoodhans1412@gmail.com>
 Build-Depends: debhelper (>=10) 
 Standards-Version: 3.9.3
 Homepage: http://www.e-consystems.com/opensource-linux-webcam-software-application.asp
 #Vcs-Git: git://git.debian.org/collab-maint/qtcam.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/qtcam.git;a=summary
 
-Package: pcl
+Package: pcl-1.8.1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libopenni-dev libboost-all-dev libflann-dev libeigen3-dev libvtk6.2 libqhull-dev libusb-1.0 libgtest-dev libvtk6-dev
 Description: It is a webcam application for linux.
